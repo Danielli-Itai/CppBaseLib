@@ -1,0 +1,13 @@
+INPUT(
+./release\Framework.o
+./release\lrtimer.o
+./release\MicBuffer.o
+./release\MicData.o
+./release\MicDataList.o
+./release\MicFile.o
+./release\MicLog.o
+./release\MicString.o
+./release\MicThread.o
+./release\MicTime.o
+./release\MicTimerMs.o
+);

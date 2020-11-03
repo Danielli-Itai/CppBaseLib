@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="0.Config">
+      <UniqueIdentifier>{8f1b9308-4c93-4ea5-9bff-dbda5763284c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="0.Framework">
+      <UniqueIdentifier>{5507da05-f7d4-43d9-901d-0a2ee5a6e864}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1.Debug">
+      <UniqueIdentifier>{7089a4b3-7bb7-45bf-b0f4-0153b9ab6aab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2.DataTypes">
+      <UniqueIdentifier>{5844399f-7b04-47a9-a765-fd360cdfc11c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3.FwThreads">
+      <UniqueIdentifier>{aac20c53-ddfc-4106-b6dd-ca65fd29ea95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="4.FwUI">
+      <UniqueIdentifier>{75ba1be7-b6a3-4796-9b3d-bcb47290ccb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="5.FwFiles">
+      <UniqueIdentifier>{fd97040c-0424-45b9-b550-ec59758e6473}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="6.FwMath">
+      <UniqueIdentifier>{37cf4a1a-32ab-4bc3-9f94-6e6a693cebf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="7.FwTime">
+      <UniqueIdentifier>{8cdc1feb-f25a-4904-95ca-91d2da3d89e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="8.FwProcess">
+      <UniqueIdentifier>{a82091f0-4b4b-4d4f-a45f-e92e8a536c17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Public">
+      <UniqueIdentifier>{f36a7d3d-5a9e-48b7-b721-5d567de85101}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="9.FwComm">
+      <UniqueIdentifier>{390c0afb-c905-4dc6-9fa7-4eb4b63ca86f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="0.Config\Config.h">
+      <Filter>0.Config</Filter>
+    </ClInclude>
+    <ClInclude Include="0.Config\Includes.h">
+      <Filter>0.Config</Filter>
+    </ClInclude>
+    <ClInclude Include="0.Framework\FwEnums.hpp">
+      <Filter>0.Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="0.Framework\FwPointers.hpp">
+      <Filter>0.Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="0.Framework\FwResult.hpp">
+      <Filter>0.Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="0.Framework\FwString.hpp">
+      <Filter>0.Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="0.Framework\FwText.hpp">
+      <Filter>0.Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="0.Framework\FwTypes.hpp">
+      <Filter>0.Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="1.Debug\FwDebugging.hpp">
+      <Filter>1.Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="1.Debug\FwMemMngr.hpp">
+      <Filter>1.Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="2.DataTypes\FwBuffer.hpp">
+      <Filter>2.DataTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="2.DataTypes\FwData.hpp">
+      <Filter>2.DataTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="2.DataTypes\XmlTypes.hpp">
+      <Filter>2.DataTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="3.FwThreads\FwSinc.hpp">
+      <Filter>3.FwThreads</Filter>
+    </ClInclude>
+    <ClInclude Include="3.FwThreads\FwThreads.hpp">
+      <Filter>3.FwThreads</Filter>
+    </ClInclude>
+    <ClInclude Include="4.FwUI\FwConsol.hpp">
+      <Filter>4.FwUI</Filter>
+    </ClInclude>
+    <ClInclude Include="4.FwUI\FwProgress.hpp">
+      <Filter>4.FwUI</Filter>
+    </ClInclude>
+    <ClInclude Include="5.FwFiles\dirent.h">
+      <Filter>5.FwFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="5.FwFiles\FwFiles.hpp">
+      <Filter>5.FwFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="6.FwMath\FwRandom.hpp">
+      <Filter>6.FwMath</Filter>
+    </ClInclude>
+    <ClInclude Include="7.FwTime\FwLrTimer.hpp">
+      <Filter>7.FwTime</Filter>
+    </ClInclude>
+    <ClInclude Include="8.FwProcess\FwLog.hpp">
+      <Filter>8.FwProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="8.FwProcess\FwObject.hpp">
+      <Filter>8.FwProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="Public\base_lib.hpp">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="2.DataTypes\FwDataList.hpp">
+      <Filter>2.DataTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="9.FwComm\FwPipeBase.hpp">
+      <Filter>9.FwComm</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="0.Framework\FwText.cpp">
+      <Filter>0.Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="1.Debug\FwDebugging.cpp">
+      <Filter>1.Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="1.Debug\FwMemMngr.cpp">
+      <Filter>1.Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="2.DataTypes\FwBuffer.cpp">
+      <Filter>2.DataTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="2.DataTypes\FwData.cpp">
+      <Filter>2.DataTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="2.DataTypes\XmlTypes.cpp">
+      <Filter>2.DataTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="3.FwThreads\FwThreads.cpp">
+      <Filter>3.FwThreads</Filter>
+    </ClCompile>
+    <ClCompile Include="4.FwUI\FwProgress.cpp">
+      <Filter>4.FwUI</Filter>
+    </ClCompile>
+    <ClCompile Include="5.FwFiles\FwFiles.cpp">
+      <Filter>5.FwFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="6.FwMath\FwRandom.cpp">
+      <Filter>6.FwMath</Filter>
+    </ClCompile>
+    <ClCompile Include="7.FwTime\FwLrTimer.cpp">
+      <Filter>7.FwTime</Filter>
+    </ClCompile>
+    <ClCompile Include="8.FwProcess\FwLog.cpp">
+      <Filter>8.FwProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="8.FwProcess\FwObject.cpp">
+      <Filter>8.FwProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="2.DataTypes\FwDataList.cpp">
+      <Filter>2.DataTypes</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

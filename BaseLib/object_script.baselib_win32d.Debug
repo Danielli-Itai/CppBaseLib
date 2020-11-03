@@ -1,0 +1,13 @@
+INPUT(
+./..\obj_debug\Framework.o
+./..\obj_debug\lrtimer.o
+./..\obj_debug\MicBuffer.o
+./..\obj_debug\MicData.o
+./..\obj_debug\MicDataList.o
+./..\obj_debug\MicFile.o
+./..\obj_debug\MicLog.o
+./..\obj_debug\MicString.o
+./..\obj_debug\MicThread.o
+./..\obj_debug\MicTime.o
+./..\obj_debug\MicTimerMs.o
+);
